@@ -1,0 +1,63 @@
+# ── Arduino / C++ Build Artifacts ─────────────────────────────────────────────
+*.hex
+*.elf
+*.map
+*.lst
+*.d
+*.o
+build/
+*.bin
+
+# ── Python Artifacts ───────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+.env
+
+# ── Jupyter Notebooks ──────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── OpenCV / ML Model Files (large binaries — track with Git LFS if needed) ───
+*.weights
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# ── IDE and Editor Files ───────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS-Generated Files ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# ── Credentials and Secrets ────────────────────────────────────────────────────
+secrets.h
+config.env
+*.pem
+*.key
+*.cert
+
+# ── Logs and Temporary Files ───────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+*.cache
+
+# ── PlatformIO ─────────────────────────────────────────────────────────────────
+.pio/
